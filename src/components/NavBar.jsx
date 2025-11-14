@@ -52,7 +52,7 @@ export default function NavBar() {
 
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-0">
+                    <ul className="menu menu-horizontal px-">
                        {navMenu()} 
                     </ul>
                 </div>
