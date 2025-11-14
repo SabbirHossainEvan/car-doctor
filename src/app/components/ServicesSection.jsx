@@ -164,7 +164,7 @@ export default async function ServicesSection() {
 ;
 
     return (
-        <div className="grid grid-cols-12 gap-6">
+        <div className="grid grid-cols-10 gap-6">
             {data.map((item) => (
                 <div className="col-span-12 md:col-span-4" key={item._id}>
                     <Image
